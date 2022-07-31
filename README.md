@@ -9,8 +9,9 @@ ________________________________________________________________________________
 
 Запуск теста
 
-1. pytest -s -v test_otr.py --alluredir=allure_otr
-2. allure serve allure_otr
+1. pip install -r requirements.txt
+2. pytest -s -v test_otr.py --alluredir=allure_otr
+3. allure serve allure_otr
 
 Все страницы, которые открылись со статусом не равным 200 будут записаны в файл FailedPages.txt
 
